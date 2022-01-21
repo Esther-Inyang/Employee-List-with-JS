@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;       /*To perfectly center horizontally*/
+} 
+
+.container h1{
+    color: rgb(5, 5, 75);
+    font-weight: 600;
+    border-bottom: 3px dashed rgb(3, 92, 8);
+    padding-bottom: 5px;
+    margin: 30px;
+}
+
+.info-div{
+    border: 2px dotted red;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.info-div > div{
+    margin: 10px;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.info-div > div:nth-child(even){
+    background-color: rgb(148, 108, 5);
+}
+
+.info-div > div:nth-child(odd){
+    background-color: rgb(114, 173, 5);
+}
+
+
